@@ -1,7 +1,7 @@
 base = 3
 mod = 68
 
-PKey = int(input("Informe a chave privada: "))\
+PKey = int(input("Informe a chave privada: "))
 
 print((base ** PKey) % mod)
 
